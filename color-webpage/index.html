@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>my test page</title>
+		<link href = "index.css" rel = "stylesheet">
+		<script>
+			function use()
+			{
+				var a = document.getElementById('input').value;
+				console.log(a);
+				document.body.style.backgroundColor = a;
+			}
+		</script>
+	</head>
+	<body>
+		<input type = "text" id = "input" placeholder = "enter color">
+		<button id = "button" align = "middle" width = "60px" height = "70px" onclick = "use()">done</button>
+	</body>
+</html>
