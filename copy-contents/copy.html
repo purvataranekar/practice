@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title>Webpage</title>
+		<link rel = "stylesheet" href = "copy.css">
+		<script>
+			function copy()
+			{
+				var a = document.getElementById('one');
+				var b = document.getElementById('two');
+				b.value = a.value;
+			}
+		</script>
+	</head>
+	<body>
+		<input id = "one" placeholder = "Enter a sentence">
+		<button id = "copy" onclick = "copy()">copy</button>
+		<input id = "two" placeholder = "string will copy here">
+	</body>
+</html>

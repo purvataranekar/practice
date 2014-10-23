@@ -1,0 +1,28 @@
+#one
+{
+	left : 300px;
+	top : 300px;
+	position : absolute;
+	text-align : center;
+	box-shadow : 0px 0px 5px 2px aqua;
+}
+#two
+{
+	left : 500px;
+	top : 300px;
+	position : absolute;
+	text-align : center;
+	border-style : solid;
+	border-width : 0px;
+	border-radius : 3px;
+	box-shadow : 0px 0px 5px 2px aqua;
+}
+#copy
+{
+	width : 70px;
+	height : 20px;
+	border : green;
+	position : absolute;
+	left : 400px;
+	top : 400px;
+}
